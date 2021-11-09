@@ -382,7 +382,7 @@ namespace IDMAPI.Controllers
                 sql.AppendLine(" ,[log_datetime]");
                 sql.AppendLine(" ,[log_exception])");
                 sql.AppendLine(" VALUES (");
-                sql.AppendLine(" '" + logonname + "'");
+                sql.AppendLine(" 'API'");
                 sql.AppendLine(" ,'" + getClientIP() + "'");
                 sql.AppendLine(" ," + (int)log_type_id);
                 sql.AppendLine(" ,'" + log_type_id.ToString() + "'");
